@@ -10,7 +10,10 @@ from discord import FFmpegPCMAudio
 from os import system
 import youtube_dl
 #OPUS_LIBS = ['libopus-0.x86.dll', 'libopus-0.x64.dll', 'libopus-0.dll', 'libopus.so.0', 'libopus.0.dylib']
-TOKEN = "NzAwOTgxNTgzMjM4MTM1ODU5.Xpq2hQ.JjGlI-gS_47bCqaOkHV4txxhSy8"
+
+#!PUT YOUR TOKEN HERE
+TOKEN = "TOKEN"
+
 client = commands.Bot(command_prefix=["Ricardo ","ricky ","Ricky ","ricardo ","RICKY "])
 @client.event
 async def on_ready():
